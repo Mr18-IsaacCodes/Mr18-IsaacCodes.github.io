@@ -291,12 +291,41 @@ export const skillGroups = [
 ] as const;
 
 export const certifications = [
-  { name: "Azure Data Engineer Associate", issuer: "Microsoft · DP-203" },
-  { name: "Data Engineer Professional", issuer: "Databricks" },
-  { name: "Data Engineer Associate", issuer: "Databricks" },
-  { name: "Associate Developer for Apache Spark 3.0", issuer: "Databricks" },
-  { name: "Data Analyst Associate", issuer: "Databricks" },
-  { name: "Generative AI Engineer Associate", issuer: "Databricks" },
+  {
+    name: "Azure Data Engineer Associate",
+    issuer: "Microsoft Learn",
+    url: "https://learn.microsoft.com/en-us/users/isaacpandraju-7646/credentials/9e0f8b665084b3f6",
+  },
+  {
+    name: "Databricks Credentials Overview",
+    issuer: "Databricks",
+    url: "https://credentials.databricks.com/3dfd475e-d285-49be-a81a-d24ecb1c199a",
+  },
+  {
+    name: "Data Engineer Associate",
+    issuer: "Databricks",
+    url: "https://credentials.databricks.com/d6497558-50d6-4426-9f3b-f90f2499e07e#acc.6PpXuASL",
+  },
+  {
+    name: "Associate Developer for Apache Spark 3.0",
+    issuer: "Databricks",
+    url: "https://credentials.databricks.com/4dc9d727-c689-4085-8cec-f7b4931ea476#acc.HU6IBe1z",
+  },
+  {
+    name: "Data Analyst Associate",
+    issuer: "Databricks",
+    url: "https://credentials.databricks.com/6a0e28ef-07a1-4f01-ab1f-254ef2b8e979#acc.EKIhQ0sp",
+  },
+  {
+    name: "Generative AI Engineer Associate",
+    issuer: "Databricks",
+    url: "https://credentials.databricks.com/ab4d5f17-7c65-4d39-ad66-32b2e8505013#acc.v8eQtrGy",
+  },
+  {
+    name: "Generative AI Engineer Associate — Badge View",
+    issuer: "Databricks",
+    url: "https://credentials.databricks.com/ab4d5f17-7c65-4d39-ad66-32b2e8505013#acc.nF2N1Mrl",
+  },
 ] as const;
 
 export const education = {

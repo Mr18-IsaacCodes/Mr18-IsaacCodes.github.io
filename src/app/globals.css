@@ -181,6 +181,7 @@ main { min-height: 60vh; }
 .section-credentials { border-block: 1px solid var(--line); background: var(--section-bg); }
 .certification-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 50px; }
 .certification { display: flex; align-items: center; gap: 17px; padding: 23px 0; border-bottom: 1px solid var(--line); }
+.certification-link { display: flex; align-items: center; gap: 17px; width: 100%; color: inherit; text-decoration: none; }
 .certification-icon { width: 46px; height: 46px; border: 1px solid var(--line); background: var(--surface); border-radius: 9px; display: flex; align-items: center; justify-content: center; color: #dc735f; flex-shrink: 0; }
 .dark .certification-icon { color: #f19c89; }
 .microsoft-mark { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; width: 21px; height: 21px; }
