@@ -6,7 +6,7 @@ const caseStudies = [
   { slug: "food-beverage-lakehouse", title: "A clearer picture of performance" },
   { slug: "aviation-etl", title: "Built for data at altitude" },
 ];
-const email = "isaacpandraju56@gmail.com";
+const email = "pandrajuisaac@outlook.com";
 
 async function expectNoHorizontalOverflow(page: Page) {
   const dimensions = await page.evaluate(() => ({
@@ -46,7 +46,7 @@ test("homepage exposes selected work, real contact links, and no browser errors"
   await expect(footer.getByRole("link", { name: "LinkedIn", exact: true }))
     .toHaveAttribute("href", "https://www.linkedin.com/in/isaacpandraju");
   await expect(footer.getByRole("link", { name: "GitHub", exact: true }))
-    .toHaveAttribute("href", "https://github.com/isaacpandraju/DE_projects");
+    .toHaveAttribute("href", "https://github.com/Mr18-IsaacCodes");
   await footer.scrollIntoViewIfNeeded();
   await expect(footer.getByRole("heading", { level: 2 })).toBeVisible();
   expect(errors).toEqual([]);

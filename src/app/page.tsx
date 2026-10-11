@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowDown, ArrowDownRight, ArrowUpRight, Award, Boxes, Braces, Check, Cloud, Code2, Database, GraduationCap, Layers3, MapPin, Sparkles, Terminal, Users } from "lucide-react";
 import { PipelineGraphic } from "@/components/pipeline-graphic";
 import { Reveal } from "@/components/reveal";
-import { certifications, education, experience, leadership, projects, skillGroups } from "@/content/portfolio";
+import { certifications, education, experience, leadership, profile, projects, skillGroups } from "@/content/portfolio";
 
 const variants = ["rag", "lakehouse", "aviation"] as const;
 const skillIcons = [Code2, Layers3, Cloud, Database, Sparkles, Terminal];
@@ -55,7 +55,7 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
-        <div className="work-note"><span>Enterprise work. Clients kept confidential.</span><a href="https://github.com/isaacpandraju/DE_projects" target="_blank" rel="noopener noreferrer">More on GitHub <ArrowUpRight size={15} /></a></div>
+        <div className="work-note"><span>Enterprise work. Clients kept confidential.</span><a href={profile.github} target="_blank" rel="noopener noreferrer">More on GitHub <ArrowUpRight size={15} /></a></div>
       </section>
 
       <section id="experience" className="section section-experience">

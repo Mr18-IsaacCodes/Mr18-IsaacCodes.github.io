@@ -18,9 +18,9 @@ export const profile = {
   name: "Isaac Pandraju",
   role: "Senior Data Engineer",
   location: "Hyderabad, India",
-  email: "isaacpandraju56@gmail.com",
+  email: "pandrajuisaac@outlook.com",
   linkedin: "https://www.linkedin.com/in/isaacpandraju",
-  github: "https://github.com/isaacpandraju/DE_projects",
+  github: "https://github.com/Mr18-IsaacCodes",
   resume: "/Isaac_Pandraju_Data_Engineer.pdf",
   intro:
     "I turn complex data into dependable platforms. From Azure lakehouses to production GenAI, I build the foundations that make better answers possible.",

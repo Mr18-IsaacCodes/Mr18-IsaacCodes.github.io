@@ -3,7 +3,7 @@
 import { Check, Copy } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-export function CopyEmail({ email = "isaacpandraju56@gmail.com" }: { email?: string }) {
+export function CopyEmail({ email = "pandrajuisaac@outlook.com" }: { email?: string }) {
   const [status, setStatus] = useState<"idle" | "copying" | "copied" | "error">("idle");
   const resetTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
